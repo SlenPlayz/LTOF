@@ -1,6 +1,5 @@
 import './style.css';
 import './fa.js';
-import './pwa-192x192.png';
 import { Editor } from '@tiptap/core';
 import StarterKit from '@tiptap/starter-kit';
 import BubbleMenu from '@tiptap/extension-bubble-menu';
