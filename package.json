@@ -1,0 +1,25 @@
+{
+  "name": "vite-starter",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.8.0",
+    "vite-plugin-pwa": "^0.11.13"
+  },
+  "dependencies": {
+    "@tiptap/core": "*",
+    "@tiptap/extension-bubble-menu": "*",
+    "@tiptap/extension-code-block-lowlight": "*",
+    "@tiptap/extension-floating-menu": "*",
+    "@tiptap/extension-underline": "*",
+    "@tiptap/starter-kit": "*",
+    "lowlight": "^2.5.0",
+    "markmap-lib": "^0.12.0",
+    "markmap-view": "^0.2.7"
+  }
+}
