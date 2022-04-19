@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script
+      src="https://kit.fontawesome.com/1842615f37.js"
+      crossorigin="anonymous"
+    ></script> -->
+    <title>Vite App</title>
+    <link rel="icon" href="/assets/favicon.67458c81.svg" type="image/svg+xml" />
+    <link
+      rel="alternate icon"
+      href="data:image/x-icon;base64,"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link rel="apple-touch-icon" href="data:image/png;base64," sizes="180x180" />
+    <link rel="mask-icon" href="/assets/favicon.67458c81.svg" color="#FFFFFF" />
+    <script type="module" crossorigin src="/assets/index.a84fa986.js"></script>
+    <link rel="stylesheet" href="/assets/index.204f45e1.css">
+  <link rel="manifest" href="/manifest.webmanifest"></head>
+  <body>
+    <div id="app">
+      <div class="sidebar">
+        <div class="subjects">
+          <button class="subject sub-create">
+            <h1 class="subT"><i class="fa-solid fa-download"></i></h1>
+          </button>
+          <button class="subject sub-create">
+            <h1 class="subT"><i class="fa-solid fa-plus"></i></h1>
+          </button>
+          <button class="subject"><h1 class="subT">S</h1></button>
+        </div>
+        <div class="files">
+          <div>
+            <h3 class="subTitle">Science</h3>
+            <div class="createMenu">
+              <button class="newNote">
+                <i class="fa-solid fa-file-circle-plus"></i>
+              </button>
+              <button class="newCategory">
+                <i class="fa-solid fa-folder-plus"></i>
+              </button>
+            </div>
+            <!-- <div class="actualFiles" x-data="mock">
+              <div x-text="mock[0].title"></div>
+              <template x-for>
+                <div class="topic file">
+                  Science
+                  <div>
+                    <button class="menuBtn rename">
+                      <i class="fa-solid fa-pen"></i>
+                    </button>
+                    <button class="menuBtn del">
+                      <i class="fa-solid fa-trash-can"></i>
+                    </button>
+                  </div>
+                </div>
+              </template>
+            </div> -->
+          </div>
+          <div class="mmapSelector">
+            <button class="textSelect" onclick="textShow()">
+              <i class="fa-solid fa-file-lines"></i>
+            </button>
+            <button class="mmapSelect" onclick="mmap()">
+              <i class="fa-solid fa-diagram-project"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="editorWrap"></div>
+    </div>
+    <script src="https://unpkg.com/turndown/dist/turndown.js"></script>
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.9.6/dist/cdn.min.js"
+    ></script>
+    
+  </body>
+</html>
